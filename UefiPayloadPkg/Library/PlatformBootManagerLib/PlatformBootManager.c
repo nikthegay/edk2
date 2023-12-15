@@ -321,6 +321,7 @@ PlatformBootManagerAfterConsole (
 
   //
   // Register UEFI Shell
+  // booting up nik's laptop.. meow! :3
   //
   PlatformRegisterFvBootOption (&gUefiShellFileGuid, L"UEFI Shell", LOAD_OPTION_ACTIVE);
 
@@ -328,7 +329,7 @@ PlatformBootManagerAfterConsole (
     BootLogoUpdateProgress (
       White,
       Black,
-      L"booting up nik's laptop.. meow! :3",
+      L"",
       White,
       0,
       0
@@ -337,7 +338,7 @@ PlatformBootManagerAfterConsole (
     BootLogoUpdateProgress (
       White,
       Black,
-      L"booting up nik's laptop.. meow! :3",
+      L"",
       White,
       0,
       0
